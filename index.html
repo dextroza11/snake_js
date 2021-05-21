@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <i class="fas fa-apple-alt" id = "apple"></i>
+    <i class="fas fa-skull-crossbones red" id = "danger"></i>
+    <div class="snake-field">
+        <div class="game-score">
+            Количество очков : <span class="game-score_num">0 </span>
+        </div>
+        <div class="left-menu">
+            <div class="left-menu_item">
+                <form action="" class="size-field">
+                        <div class="title"><p><b>Размер поля:</b><Br></div>
+                        X
+                        <input type="text" class= "size-field_x" name="size" value="20">  <Br>
+                        Y
+                        <input type="text" class= "size-field_y" name="size" value="20">  <Br>
+                        
+                        <p><input type="submit"></p>
+
+
+                    </p>
+                    
+                </form>
+                <hr class="line">
+
+                
+            </div>
+            <div class="left-menu_item">
+                <form action="" class="snake-speed">
+                    <div class="title"><p><b>Скорость игры:</b><Br></div>
+                        <p><input name="dzen" type="radio" value="nedzen">Медленная</p>
+                        <p><input name="dzen" type="radio" value="dzen">Обычная</p>
+                        <p><input name="dzen" type="radio" value="pdzen" checked> Быстрая </p>
+                        <p><input type="submit"></p>
+                </form>
+                <hr class="line">
+            </div>
+            <div class="left-menu_item">
+                <form action="" class="snake-speed">
+                    <div class="title"><p><b>С границами или без:</b><Br></div>
+                        <p><input name="dzen" type="radio" value="nedzen">С границами</p>
+                        <p><input name="dzen" type="radio" value="dzen">Без границ</p>
+                        <p><input type="submit"></p>
+                </form>
+                <hr class="line">
+            </div>
+            
+
+
+
+        </div>
+    </div>
+
+    <div class="control">
+        <button class="snake-start">
+            Старт
+        </button>
+        <button class="snake-renew">
+            новая игра
+        </button>
+    </div>
+    
+
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f5b28bc7fd.js" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>

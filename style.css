@@ -1,0 +1,109 @@
+body{
+    background-color:black;
+    
+}
+
+.snake-field{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+
+}
+.fa-apple-alt{
+    display: none;
+}
+
+.red{
+    color:red;
+}
+
+.hide{
+    display: none;
+}
+input{
+    text-align: center;
+    margin-top: 10px;
+}
+/* .barier-unit::before{
+    content: "|||";
+    color:red;
+}
+.barier-unit{
+    text-align: center;
+} */
+.game-score{
+    color:white;
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 20%;
+    width: 100%;
+    background-color:black;
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.line{
+    height: 2px;
+}
+.left-menu{
+    height: 100%;
+    background-color: brown;
+    width:20%;
+    position: absolute;
+    left: 0px;
+    top:15px;
+    background-color: darkgray;
+}
+
+.fa-apple-alt{
+    color:green;
+}
+
+button{
+    margin-left: 50px;
+    width: 100px;
+}
+p{
+    color:white;
+}
+
+button:first-child {
+    margin-left: 0px;
+}
+.control{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 50px;
+}
+
+.game-table{
+    border-collapse: collapse;
+}
+
+.game-table-cell{
+    width: 15px;
+    border:1px dotted white;
+    border-collapse: collapse;
+    height: 15px;
+}
+
+.snake-unit{
+    background-color:blanchedalmond;
+}
+
+.food-unit{
+   /* background-color:green; */
+}
+
